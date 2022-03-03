@@ -7,7 +7,7 @@ syscall:::entry
 {
 	printf("%s(%d, %d, %d, %d, %d, %d)", stringof(execname), arg0, arg1, arg2, arg3, arg4, arg5);
 
-
+  
 }
 syscall:::return
 
